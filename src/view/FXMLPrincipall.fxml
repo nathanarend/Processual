@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controllerCadastro">
+   <children>
+      <Button fx:id="btNovo" layoutX="312.0" layoutY="14.0" mnemonicParsing="false" onAction="#novoCadastro" text="Novo" />
+      <Button fx:id="btEditar" layoutX="367.0" layoutY="14.0" mnemonicParsing="false" onAction="#editarCadastro" text="Editar" />
+      <Button fx:id="btRemover" layoutX="424.0" layoutY="14.0" mnemonicParsing="false" onAction="#removerCadastro" text="Remover" />
+      <TableView fx:id="tbTabela" layoutX="19.0" layoutY="54.0" prefHeight="528.0" prefWidth="762.0">
+        <columns>
+          <TableColumn fx:id="tbID" prefWidth="187.0" text="Id" />
+          <TableColumn fx:id="tbUsuario" minWidth="4.0" prefWidth="318.0" text="Usuário" />
+            <TableColumn fx:id="tbEmail" prefWidth="256.0" text="E-mail" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

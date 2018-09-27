@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controllerCadastro">
+   <children>
+      <Button fx:id="btLimpar" layoutX="139.0" layoutY="40.0" mnemonicParsing="false" text="Limpar" />
+      <Button fx:id="btSalvar" layoutX="207.0" layoutY="40.0" mnemonicParsing="false" text="Salvar" />
+      <ComboBox fx:id="cbCargo" layoutX="64.0" layoutY="89.0" prefHeight="25.0" prefWidth="188.0" />
+      <Label layoutX="14.0" layoutY="93.0" text="Cargo:" />
+      <Label layoutX="14.0" layoutY="135.0" text="Usuário:" />
+      <Label layoutX="14.0" layoutY="167.0" text="E-mail:" />
+      <Label layoutX="15.0" layoutY="200.0" text="Senha:" />
+      <TextField fx:id="txtUsuario" layoutX="65.0" layoutY="131.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="txtEmail" layoutX="65.0" layoutY="163.0" prefHeight="25.0" prefWidth="188.0" />
+      <PasswordField fx:id="pfSenha" layoutX="65.0" layoutY="196.0" prefHeight="25.0" prefWidth="188.0" />
+   </children>
+</AnchorPane>
